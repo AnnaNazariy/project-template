@@ -8,7 +8,7 @@
 
 - 🔗 GitHub: [AnnaNazariy](https://github.com/AnnaNazariy)
 - 🎨 Оригінал дизайну: [Figma макет](https://www.figma.com/community/file/1270537961592590050)
-- 🌐 Опублікована сторінка: [GitHub Pages](https://annanazariy.github.io/project-template) *(після deploy)*
+- 🌐 Опублікована сторінка: [GitHub Pages](https://annanazariy.github.io/project-template)
 
 ---
 
