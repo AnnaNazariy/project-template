@@ -1,20 +1,24 @@
-import React, { Component } from "react";
-import Header from "./components/Header";
-import Description from "./components/Description";
-import Workspace from "./components/Workspace";
-import Footer from "./components/Footer";
+import React from 'react';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import About from './components/About';
+import Workspace from './components/Workspace';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
-class App extends Component {
-  render() {
-    return (
-      <div style={{ position: "relative", minHeight: "100vh", paddingBottom: "100px" }}>
-        <Header />
-        <Description />
-        <Workspace />
-        <Footer />
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div>
+      <Header />
+      <Hero />
+      <About />
+      <Workspace />
+      <Projects />
+      <Contact />
+      <Footer />
+    </div>
+  );
+};
 
 export default App;

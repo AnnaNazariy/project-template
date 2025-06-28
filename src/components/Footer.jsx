@@ -1,23 +1,36 @@
-import React, { Component } from "react";
+import React from 'react';
 
-class Footer extends Component {
-  render() {
-    return (
-      <div style={{
-        background: "#b0cef7",
-        padding: "10px",
-        position: "absolute",
-        right: "20px",
-        bottom: "20px"
-      }}>
-        <div><strong>Автор</strong>: Анна Назарій</div>
-        <div>
-          <a href="https://github.com/AnnaNazariy" target="_blank" rel="noreferrer">GitHub</a> |{" "}
-          <a href="https://www.figma.com/community/file/1270537961592590050" target="_blank" rel="noreferrer">Дизайн</a>
-        </div>
-      </div>
-    );
+const Footer = () => {
+  return (
+    <footer style={styles.footer}>
+      <p>© 2025 Nazarii Anna — Усі права захищено</p>
+      <a
+        href="https://github.com/AnnaNazariy"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={styles.link}
+      >
+        GitHub профіль
+      </a>
+    </footer>
+  );
+};
+
+const styles = {
+  footer: {
+    backgroundColor: '#0a0a0a',
+    color: '#888',
+    textAlign: 'center',
+    padding: '30px 20px',
+    fontSize: '14px',
+    fontFamily: 'Poppins, sans-serif'
+  },
+  link: {
+    display: 'block',
+    marginTop: '10px',
+    color: '#FFD700',
+    textDecoration: 'underline'
   }
-}
+};
 
 export default Footer;
