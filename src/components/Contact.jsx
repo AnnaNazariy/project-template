@@ -7,7 +7,7 @@ const Contact = () => {
       <p>Email: nazarii.anna@gmail.com</p>
       <p>
         GitHub:{' '}
-        <a href="https://github.com/AnnaNazariy" target="_blank" rel="noreferrer" style={styles.link}>
+        <a href="https://github.com/AnnaNazariy/project-template" target="_blank" rel="noreferrer" style={styles.link}>
           AnnaNazariy
         </a>
       </p>
