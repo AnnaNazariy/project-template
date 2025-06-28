@@ -1,28 +1,32 @@
-# 🎬 Project Template (React)
+# 🎬 DreamSpace — React шаблон
 
-Це стартовий шаблон сторінки на React, розроблений для подальшої роботи з макетом.
+Це стартовий шаблон сайту, розроблений у React на основі Figma-дизайну. Проєкт демонструє можливості візуалізації ідей інтер’єру.
 
 ---
 
-## 👩‍💻 Автор: Анна Назарій
+## 👩‍💻 Автор: Nazarii Anna
 
 - 🔗 GitHub: [AnnaNazariy](https://github.com/AnnaNazariy)
 - 🎨 Оригінал дизайну: [Figma макет](https://www.figma.com/community/file/1270537961592590050)
-- 🌐 Опублікована сторінка: [GitHub Pages](https://annanazariy.github.io/project-template)
+- 🌐 Жива версія: [GitHub Pages](https://annanazariy.github.io/project-template)
 
 ---
 
-## 📦 Технології
+## 🚀 Стек технологій
 
-- React.js
-- JSX (class-based)
-- GitHub Pages
+- ⚛️ React.js (JSX)
+- 🎨 CSS-in-JS (inline styles)
+- 📦 GitHub Pages
+- 💡 Компонентний підхід
 
 ---
 
-## 🧩 Компоненти
+## 📁 Основні компоненти
 
-- Header
-- Description
-- Workspace
-- Footer
+- `Header`
+- `Hero`
+- `About`
+- `Workspace`
+- `Projects`
+- `Contact` 
+- `Footer` 
